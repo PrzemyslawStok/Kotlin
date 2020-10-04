@@ -19,6 +19,13 @@ fun main(){
 
     var student = Student("Przemysław","Stokłosa",72.0)
     student.printStudent()
+
+    var numbers = mutableListOf(1,2,3,4,5,6,7,8,9,10)
+
+    println(numbers)
+    println(numbers.map{a->a*a})
+
+    println(numbers.map{it*it})
 }
 
 fun add(a: Double, b: Double) : Double{
