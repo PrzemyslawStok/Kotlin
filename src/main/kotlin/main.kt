@@ -16,6 +16,9 @@ fun main(){
     println("${a} - ${b} = ${a-b}")
     println("${a} * ${b} = ${a*b}")
     println("${a} / ${b} = ${a/b}")
+
+    var student = Student("Przemysław","Stokłosa")
+    student.printStudent()
 }
 
 fun add(a: Double, b: Double) : Double{
