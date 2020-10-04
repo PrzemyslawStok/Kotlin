@@ -12,5 +12,8 @@ fun main(){
     val add = a+b
 
     println(""+a+" + "+b+" = "+add)
-
+    println("${a} + ${b} = ${add}")
+    println("${a} - ${b} = ${a-b}")
+    println("${a} * ${b} = ${a*b}")
+    println("${a} / ${b} = ${a/b}")
 }
