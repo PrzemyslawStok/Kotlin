@@ -23,9 +23,11 @@ fun main(){
     var numbers = mutableListOf(1,2,3,4,5,6,7,8,9,10)
 
     println(numbers)
+    println(numbers.map{a->})
     println(numbers.map{a->a*a})
 
     println(numbers.map{it*it})
+    println(numbers.filter{it%2==0}.map{it*it})
 }
 
 fun add(a: Double, b: Double) : Double{
